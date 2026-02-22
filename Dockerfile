@@ -1,6 +1,6 @@
 FROM node:20-alpine AS builder
 
-WORKDIR /build
+WORKDIR /excalidraw-room
 
 COPY package.json yarn.lock ./
 RUN yarn --frozen-lockfile
